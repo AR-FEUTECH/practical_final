@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Alex Lazaga</title>
+  <meta name="description" content="Alex Lazaga — automotive photography based in Manila, Philippines.">
+  <meta name="theme-color" content="#eeece6">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="wrap header-inner">
+      <a href="index.html"><p class="site-name">Alex Lazaga <span>/ Automotive Photography</span></p></a>
+      <button class="menu-btn" aria-expanded="false">Menu</button>
+      <nav>
+        <ul>
+          <li><a href="index.html"><sup>01</sup>Home</a></li>
+          <li><a href="about.html"><sup>02</sup>About</a></li>
+          <li><a href="skills.html"><sup>03</sup>Skills</a></li>
+          <li><a href="contact.html" class="active"><sup>04</sup>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="wrap">
+        <span class="mono"><span class="dot"></span>Contact Me</span>
+        <h1>Let's<br>Sh<span class="o">o</span>ot</h1>
+        <p>Have a car worth shooting? Reach out. Every message gets a personal reply.</p>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="wrap contact-grid">
+        <div class="reveal">
+          <p class="mono" style="margin-bottom:1rem">You can contact me here:</p>
+          <address>
+            <a class="contact-line" href="mailto:alexlazaga50@gmail.com">
+              <span class="mono">Email — bookings &amp; shoot details</span>
+              <strong>alexlazaga50@gmail.com</strong>
+            </a>
+            <a class="contact-line" href="tel:+639764822007">
+              <span class="mono">Want to shoot? Let's talk</span>
+              <strong>@ar.atmv</strong>
+            </a>
+          </address>
+        </div>
+
+        <div class="reveal">
+          <form action="mailto:alexlazaga50@gmail.com" method="post" enctype="text/plain">
+            <h2>Send me a message</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+
+            <label for="phone">Phone number (optional)</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn btn-signal">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner mono">
+      <p>&copy; <span class="year">2026</span> Alex Lazaga</p>
+      <p><span class="dot"></span>Manila, Philippines</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
